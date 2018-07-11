@@ -1,0 +1,882 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face{ src:url(../fonts/font2.otf); font-family:arun;}
+@font-face{ src:url(../fonts/font3.ttf); font-family:arun2;}
+@font-face{ src:url(../fonts/YanoneKaffeesatz-Regular.otf); font-family:arun3;}
+@font-face{ src:url(../fonts/helvetica-neue-lt-com-57-condensed.ttf); font-family:arun4;}
+@font-face{ src:url(../fonts/arun5.ttf); font-family:arun5;}
+@font-face{ src:url(../fonts/arun9.ttf); font-family:arun6;}
+@font-face{ src:url(../fonts/YanoneKaffeesatz-Regular.otf); font-family:arun7;}
+@font-face{ src:url(../fonts/helvetica-neue-lt-com-57-condensed.ttf); font-family:arun8;}
+
+
+
+body {
+margin:0px;
+padding:0px;
+background:url(../assets/bg-top2.jpg) repeat;
+}
+
+#socialall {
+width:38px;
+height:165px;
+float:right;
+right:0px;
+top:130px;
+background:url(../assets/social_bg.png) repeat;
+position:fixed;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+z-index:1000;
+}
+#socialall #socialfixed {
+width:40px;
+height:27px;
+float:left;
+margin:7px 0px 10px 7px;
+}
+#socialfixed #si01 {
+width:27px;
+height:26px;
+float:left;
+margin:0px 0px 5px 0px;
+background:url(../assets/Social01.png) no-repeat;
+}
+#socialfixed #si02 {
+width:27px;
+height:26px;
+float:left;
+margin:0px 0px 5px 0px;
+background:url(../assets/Social02.png) no-repeat;
+}
+#socialfixed #si03 {
+width:27px;
+height:26px;
+float:left;
+margin:0px 0px 5px 0px;
+background:url(../assets/Social03.png) no-repeat;
+}
+#socialfixed #si04 {
+width:27px;
+height:26px;
+float:left;
+margin:0px 0px 5px 0px;
+background:url(../assets/Social04.png) no-repeat;
+}
+#socialfixed #si05 {
+width:27px;
+height:26px;
+float:left;
+margin:0px 0px 5px 0px;
+background:url(../assets/Social05.png) no-repeat;
+}
+#socialfixed #si06 {
+width:27px;
+height:26px;
+float:left;
+margin:0px 0px 0px 0px;
+background:url(../assets/Social06.html) no-repeat;
+}
+
+#header {
+width:990px;
+height:190px;
+background:url(../assets/header_main_bg.png) no-repeat;
+margin:auto;
+color:#fff;
+
+}
+#header #header_fix {
+width:990px;
+height:100px;
+margin:auto;
+}
+
+#header_fix #hf_leftall {
+width:500px;
+height:100px;
+float:left;
+margin:0px 0px 0px 0px;
+}
+#hf_leftall #hfl_logo {
+width:499px;
+height:75px;
+float:left;
+margin:12px 0px 0px 0px;
+
+}
+
+
+#header_fix #hf_rightall {
+width:430px;
+height:100px;
+float:right;
+margin:0px 0px 0px 0px;
+}
+#hf_rightall #hfra_callusall {
+width:auto;
+height:40px;
+float:right;
+margin:0px 0px 0px 0px;
+background-color:#5baf40;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+#hfra_callusall #hfracua_callicon {
+width:30px;
+height:19px;
+float:left;
+margin:10px 10px 0px 10px;
+background:url(../assets/callus_icon.png) no-repeat;
+}
+#hfra_callusall #hfracua_calltext {
+width:auto;
+height:auto;
+float:left;
+margin:3px 10px 0px 0px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+
+
+#hf_rightall #hfra_login {
+width:auto;
+height:40px;
+float:right;
+margin:0px 12px 0px 0px;
+background-color:#5baf40;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+}
+#hfra_login #hfral_link {
+width:auto;
+height:auto;
+float:left;
+margin:10px 10px 0px 10px;
+font-family:arun4;
+font-size:15px;
+color:#FFFFFF;
+}
+#hfra_login #hfral_link:hover {
+width:auto;
+height:auto;
+float:left;
+margin:10px 10px 0px 10px;
+font-family:arun4;
+font-size:15px;
+color:#113804;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hfra_bottomall #haf_rightall #hafra_navall {
+width:auto;
+height:auto;
+float:right;
+margin:0px 0px 0px 0px;
+}
+#nav {padding:0; margin:0px 0px 0px 0px; list-style:none; height:auto; position:relative; z-index:500; font-family:arun8; }
+#nav li.top {display:block; float:left;}
+#nav li a.top_link {display:block; float:left; height:40px; line-height:27px; color:#ffffff; text-decoration:none; font-size:18px; font-weight:normal; padding:10px 25px 0 25px; cursor:pointer;}
+#nav li a.top_link span {float:left; display:block; padding:0 0px 0 0px; height:36px;}
+#nav li a.top_link span.down {float:left; display:block; padding:0 0px 0 0px; height:36px;}
+#nav li a.top_link:hover {color:#fff;}
+
+#nav li:hover > a.top_link { background-color:#009cad;}
+
+/* Default list styling */
+
+#nav li:hover {position:relative; z-index:200;}
+
+/* keep the 'next' level invisible by placing it off screen. */
+#nav ul, 
+#nav li:hover ul ul,
+#nav li:hover ul li:hover ul ul,
+#nav li:hover ul li:hover ul li:hover ul ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul ul
+{position:absolute; left:-9999px; top:-9999px; width:0px; height:0; margin:0; padding:0; list-style:none;}
+
+#nav li:hover ul.sub
+{left:0px; top:50px; background:#009cad; padding:0px; white-space:nowrap; width:190px; height:auto; z-index:300; font-family:arun8;}
+#nav li:hover ul.sub li
+{display:block; height:30px; position:relative; float:left; width:504px; font-weight:normal;}
+#nav li:hover ul.sub li a
+{display:block; font-size:16px; height:25px; width:504px; text-indent:5px; padding:5px 0px 0px 0px; color:#ffffff; text-decoration:none;}
+#nav li ul.sub li a.fly { background:url(../assets/arrow.gif) no-repeat 178px 12px;}
+#nav li:hover ul.sub li a:hover 
+{background-color:#009cad;}
+#nav li:hover ul.sub li a.fly:hover
+{color:#fff; background-color:#5baf40;}
+
+#nav li:hover ul li:hover > a.fly { background-color:#5baf40;} 
+
+#nav li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul,
+#nav li:hover ul li:hover ul li:hover ul li:hover ul li:hover ul
+{left:190px; top:0px; background: #5baf40; padding:0px; white-space:nowrap; width:504px; z-index:400; height:auto;}
+
+
+
+
+
+
+
+
+
+#navigation {
+width:100%;
+height:50px;
+float:left;
+margin:0px ;
+}
+#navigation #navigation_fix {
+width:990px;
+height:50px;
+margin:auto;
+background-color:#5baf40;
+/* box-shadow:1px 1px 20px rgba(0,0,0,1); */
+border-top:1px solid #ddd
+}
+
+
+
+#banner {
+width:100%;
+height:400px;
+float:left;
+margin:0px 0px 0px 0px;
+}
+#banner #banner_fix {
+width:990px;
+height:400px;
+margin:auto;
+box-shadow:1px 1px 20px rgba(0,0,0,1);
+}
+
+
+#body {
+width:100%;
+min-height:300px;
+float:left;
+margin:0px 0px 0px 0px;
+}
+#body #body_fix {
+width:990px;
+min-height:300px;
+margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+#body_fix #bthirddesign {
+width:990px;
+min-height:300px;
+float:left;
+margin:0px 0px 0px 0px;
+box-shadow:1px 1px 20px rgba(0,0,0,1);
+}
+#bthirddesign #bthd_leftall {
+width:330px;
+min-height:290px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#222;
+}
+
+#bthd_leftall #bthdlaf_headd {
+width:315px;
+height:30px;
+float:left;
+padding:10px 0px 0px 15px;
+font-family:arun5;
+font-size:18px;
+color:#FFFFFF;
+font-weight:normal;
+text-transform:uppercase;
+background-color:#5baf40;
+}
+
+#bthd_leftall #bthdla_fixx {
+width:300px;
+min-height:200px;
+float:left;
+margin:20px 15px 30px 15px;
+}
+
+#bthdla_fixx #bthdlaf_textall {
+width:300px;
+min-height:200px;
+float:left;
+margin:0px 0px 0px 0px;
+font-family:arun4;
+font-size:15px;
+color:#fff;
+text-transform:uppercase;
+}
+
+#coursesicon {
+width:27px;
+height:38px;
+float:left;
+margin:0px 2px 0px 0px;
+background:url(../assets/courses_icon.png) no-repeat;
+}
+#coursestextbox {
+width:270px;
+height:32px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#FFFFFF;
+}
+.scroll_textall {
+font-family:arun4;
+font-size:15px;
+color:#fff;
+text-decoration:none;
+font-weight:normal;
+text-transform:none;
+}
+
+
+
+
+
+#bthirddesign #bthd_middall {
+width:330px;
+min-height:300px;
+float:left;
+margin:0px 0px 0px 0px;
+background:url(../assets/clientbg.jpg) no-repeat;
+}
+
+
+#bthd_middall #bthdmatoaf_headd {
+width:330px;
+height:32px;
+float:left;
+padding:8px 0px 0px 0px;
+font-family:arun5;
+font-size:20px;
+color:#1d2800;
+font-weight:normal;
+text-transform:uppercase;
+background-color:#98c520;
+text-align:center;
+}
+#bthd_middall #bthdma_teext {
+width:160px;
+height:auto;
+float:left;
+margin:27px 0px 0px 20px;
+font-family:arun6;
+font-size:16px;
+color:#1d2800;
+line-height:23px;
+}
+
+
+
+#bthirddesign #bthd_rightall {
+width:330px;
+min-height:290px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#222;
+}
+#bthd_rightall #bthdra_topone {
+width:330px;
+height:150px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#525252;
+}
+#bthdra_topone #bthdrato_fix {
+width:290px;
+height:110px;
+float:left;
+margin:20px 20px 20px 20px;
+}
+#bthdrato_fix #bthdratof_headd {
+width:290px;
+height:auto;
+float:left;
+margin:0px 0px 6px 0px;
+font-family:arun5;
+font-size:18px;
+color:#FFFFFF;
+font-weight:normal;
+text-transform:uppercase;
+}
+#bthdrato_fix #bthdratof_teext {
+width:290px;
+height:auto;
+float:left;
+margin:0px 0px 0px 0px;
+font-family:arun4;
+font-size:14px;
+color:#fff;
+line-height:19px;
+}
+
+#bthd_rightall #bthdra_bottomone {
+width:330px;
+height:150px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#616161;
+}
+#bthdra_bottomone #bthdrabo_fix {
+width:290px;
+height:110px;
+float:left;
+margin:20px 20px 20px 20px;
+}
+#bthdrabo_fix #bthdrabof_headd {
+width:290px;
+height:auto;
+float:left;
+margin:0px 0px 6px 0px;
+font-family:arun5;
+font-size:18px;
+color:#FFFFFF;
+font-weight:normal;
+text-transform:uppercase;
+}
+#bthdrabo_fix #bthdrabof_teext {
+width:290px;
+height:auto;
+float:left;
+margin:0px 0px 0px 0px;
+font-family:arun4;
+font-size:14px;
+color:#fff;
+line-height:19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bodysecond {
+width:100%;
+min-height:300px;
+float:left;
+margin:0px 0px 0px 0px;
+background:url(../assets/3box_bg.png) repeat-x;
+}
+#bodysecond #bodysecond_fix {
+width:990px;
+min-height:300px;
+margin:auto;
+}
+
+#bodysecond_fix #bsf_boxall {
+width:310px;
+min-height:300px;
+float:left;
+margin:30px 0px 24px 0px;
+background-color:#fff;
+box-shadow:1px 1px 20px rgba(0,0,0,0.5);
+}
+#bsf_boxall #bsfba_headd {
+width:300px;
+height:33px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#fff;
+font-family:arun6;
+font-size:20px;
+color:#5baf40;
+padding:7px 0px 0px 10px;
+}
+#bsf_boxall #bsfba_imgg {
+width:310px;
+height:120px;
+float:left;
+margin:0px 0px 0px 0px;
+background:url(../assets/3vision.jpg) no-repeat;
+}
+#bsf_boxall #bsfba_imgg02 {
+width:310px;
+height:120px;
+float:left;
+margin:0px 0px 0px 0px;
+background:url(../assets/3mission.jpg) no-repeat;
+}
+#bsf_boxall #bsfba_imgg03 {
+width:310px;
+height:120px;
+float:left;
+margin:0px 0px 0px 0px;
+background:url(../assets/3origin.jpg) no-repeat;
+}
+#bsf_boxall #bsfba_texxt {
+width:290px;
+height:auto;
+float:left;
+margin:0px 0px 0px 0px;
+font-family:arun4;
+font-size:14px;
+color:#696969;
+line-height:20px;
+padding:10px 10px 15px 10px;
+}
+
+#bsf_boxall #bsfba_readmore {
+width:300px;
+height:25px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#4d4d4d;
+font-family:arun6;
+font-size:16px;
+color:#5baf40;
+padding:7px 0px 0px 10px;
+border-bottom:2px solid #5baf40;
+}
+#bsf_boxall #bsfba_readmore:hover {
+width:300px;
+height:25px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#4d4d4d;
+font-family:arun6;
+font-size:16px;
+color:#fff;
+padding:7px 0px 0px 10px;
+border-bottom:2px solid #fff;
+}
+
+#bodysecond_fix #bsf_boxallspace {
+width:30px;
+min-height:300px;
+float:left;
+margin:30px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ftrall { 
+width:100%; 
+min-height:120px;
+float:left;
+margin:0px 0px 0px 0px;
+background:url(../assets/ftr_bg.jpg) no-repeat;
+background-position:center top;
+border-top:2px solid #5baf40;
+}
+#ftrall #ftra_formall { 
+width:100%; 
+min-height:120px;
+float:left;
+margin:15px 0px 15px 0px;
+}
+#ftra_formall #ftrafa_fix { 
+width:990px; 
+min-height:130px;
+margin:auto;
+background:url(../assets/header_bg.png) repeat;
+}
+#ftrafa_fix #ftrafaf_fixed { 
+width:970px; 
+min-height:90px;
+float:left;
+margin:10px 10px 0px 10px;
+}
+
+#ftrafaf_fixed #ftrafaff_boxfourall { 
+width:970px; 
+height:60px;
+float:left;
+margin:0px 0px 0px 0px;
+}
+#ftrafaff_boxfourall #ftrafaffbfa_boxoneall { 
+width:176px; 
+height:60px;
+float:left;
+margin:0px 0px 0px 0px;
+}
+#ftrafaff_boxfourall #ftrafaffbfa_boxcontactall { 
+width:246px; 
+height:110px;
+float:left;
+margin:0px 0px 0px 20px;
+}
+#ftrafaffbfa_boxoneall #ftrafaffbfaboa_icon { 
+width:60px; 
+height:57px;
+float:left;
+margin:0px 0px 0px 58px;
+background:url(../assets/raq_icon.png) no-repeat;
+}
+#ftrafaffbfa_boxoneall #ftrafaffbfaboa_icon02 { 
+width:59px; 
+height:57px;
+float:left;
+margin:0px 0px 0px 58px;
+background:url(../assets/call_icon.png) no-repeat;
+}
+#ftrafaffbfa_boxoneall #ftrafaffbfaboa_icon03 { 
+width:57px; 
+height:57px;
+float:left;
+margin:0px 0px 0px 59px;
+background:url(../assets/write_icon.png) no-repeat;
+}
+#ftrafaffbfa_boxcontactall #ftrafaffbfabca_icon04 { 
+width:58px; 
+height:57px;
+float:left;
+margin:0px 0px 0px 94px;
+background:url(../assets/skype_icon.png) no-repeat;
+}
+#ftrafaffbfa_boxoneall #ftrafaffbfaboa_icon05 { 
+width:70px; 
+height:57px;
+float:left;
+margin:0px 0px 0px 52px;
+background:url(../assets/keep.png) no-repeat;
+}
+#ftrafaffbfa_boxoneall #ftrafaffbfaboa_headss { 
+width:176px; 
+height:auto;
+float:left;
+margin:13px 0px 0px 0px;
+font-family:arun6;
+font-size:18px;
+color:#fff;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+text-transform:uppercase;
+}
+#ftrafaffbfa_boxcontactall #ftrafaffbfabca_headss { 
+width:246px; 
+height:auto;
+float:left;
+margin:2px 0px 5px 0px;
+font-family:arun6;
+font-size:18px;
+color:#fff;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+text-transform:uppercase;
+}
+#ftrafaffbfa_boxcontactall #ftrafaffbfabca_headss02 { 
+width:246px; 
+height:auto;
+float:left;
+margin:0px 0px 0px 0px;
+font-family:arun4;
+font-size:15px;
+color:#b6b6b6;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+}
+.ftrafaffbfabca_headss022 { 
+font-family:arun4;
+font-size:15px;
+color:#5baf40;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+}
+#ftrafaffbfa_boxoneall #ftrafaffbfaboa_headss02 { 
+width:176px; 
+height:auto;
+float:left;
+margin:0px 0px 0px 0px;
+font-family:arun4;
+font-size:15px;
+color:#b6b6b6;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+}
+.ftrafaffbfaboa_headss0222 { 
+font-family:arun4;
+font-size:15px;
+color:#b6b6b6;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+}
+.ftrafaffbfaboa_headss0222:hover { 
+font-family:arun4;
+font-size:15px;
+color:#ffffff;
+font-weight:normal;
+text-decoration:underline;
+text-align:center;
+}
+
+#ftrafaff_boxfourall #ftrafaffbfa_boxoneallspace { 
+width:0px; 
+height:100px;
+float:left;
+margin:0px 0px 0px 0px;
+}
+
+
+#ftrall #ftra_copyall { 
+width:100%; 
+height:60px;
+float:left;
+margin:0px 0px 0px 0px;
+background-color:#000;
+}
+#ftra_copyall #fca_fix { 
+width:990px; 
+height:60px;
+margin:auto;
+}
+#fca_fix #fcaf_lefttext { 
+width:990px; 
+height:auto;
+float:left;
+margin:22px 0px 0px 0px;
+font-family:arun4;
+font-size:14px;
+color:#777777;
+font-weight:normal;
+text-decoration:none;
+line-height:20px;
+text-align:center;
+}
+.fcaf_lefttextttt { 
+font-family:arun4;
+font-size:13px;
+color:#a7a7a7;
+font-weight:normal;
+text-decoration:none;
+line-height:20px;
+}
+
+
+#fca_fix #fcaf_socialall { 
+width:auto; 
+height:auto;
+float:right;
+margin:14px 0px 0px 0px;
+}
+#fcaf_socialall #fcafsa_fb { 
+width:30px; 
+height:30px;
+float:left;
+margin:0px 8px 0px 0px;
+border:2px solid #404040;
+border-radius:50px;
+}
+#fcafsa_fb #fcafsafb_icon { 
+width:8px; 
+height:19px;
+float:left;
+margin:5px 0px 0px 10px;
+background:url(../assets/fb2.html) no-repeat;
+}
+#fcaf_socialall #fcafsa_tw { 
+width:30px; 
+height:30px;
+float:left;
+margin:0px 8px 0px 0px;
+border:2px solid #404040;
+border-radius:50px;
+}
+#fcafsa_tw #fcafsatw_icon { 
+width:17px; 
+height:15px;
+float:left;
+margin:8px 0px 0px 7px;
+background:url(../assets/tw2.html) no-repeat;
+}
+#fcaf_socialall #fcafsa_li { 
+width:30px; 
+height:30px;
+float:left;
+margin:0px 8px 0px 0px;
+border:2px solid #404040;
+border-radius:50px;
+}
+#fcafsa_li #fcafsali_icon { 
+width:16px; 
+height:16px;
+float:left;
+margin:6px 0px 0px 9px;
+background:url(../assets/li2.html) no-repeat;
+}
+#fcaf_socialall #fcafsa_in { 
+width:30px; 
+height:30px;
+float:left;
+margin:0px 8px 0px 0px;
+border:2px solid #404040;
+border-radius:50px;
+}
+#fcafsa_in #fcafsain_icon { 
+width:18px; 
+height:17px;
+float:left;
+margin:6px 0px 0px 7px;
+background:url(../assets/in2.html) no-repeat;
+}
+ /* css for start custom  */
+ .bg-white{
+	 background:#fff;
+ }
+ /* css for end custom  */
+
